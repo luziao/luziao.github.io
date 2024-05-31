@@ -1,63 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 body {
-    font-family: 'Nunito', Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: 'Nunito', Arial, sans-serif; /* 更专业、更现代的字体 */
+    background-color: #f4f4f9; /* 更轻、更清新的背景色 */
+    color: #333; /* 深色字体提高可读性 */
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.6; /* 增加行间距以提高文本可读性 */
 }
 
 .container {
     width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    margin: 0 auto; /* 水平居中 */
+    padding: 20px; /* 增加内边距 */
+    background-color: #ffffff; /* 白色背景提高内容的突出显示 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影以增强层次感 */
+    border-radius: 8px; /* 轻微的边角圆润处理 */
 }
 
 header {
-    text-align: center;
-    padding: 20px 0;
+    text-align: center; /* 标题居中显示 */
+    padding: 20px 0; /* 增加头部的垂直间距 */
 }
 
 header h1 {
     margin: 0;
-    color: #4a69bd;
+    color: #4a69bd; /* 标题颜色为柔和的蓝色 */
+}
+
+.profile-photo {
+    width: 150px; /* 设置照片宽度 */
+    height: auto; /* 高度自动调整，保持纵横比 */
+    border-radius: 75px; /* 圆形照片 */
+    margin: 10px 0; /* 添加一些顶部和底部外边距 */
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* 每个部分之间增加底部外边距 */
 }
 
 section h2 {
-    color: #4a69bd;
-    border-bottom: 2px solid #4a69bd;
-    padding-bottom: 5px;
+    color: #4a69bd; /* 小标题使用与大标题相同的颜色 */
+    border-bottom: 2px solid #4a69bd; /* 下划线以蓝色显示 */
+    padding-bottom: 5px; /* 小标题下方留出空间 */
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* 移除默认的列表样式 */
+    padding: 0; /* 移除内边距 */
 }
 
 ul li {
-    padding: 5px 0;
-    border-bottom: 1px solid #e2e2e2;
+    padding: 5px 0; /* 列表项垂直间距 */
+    border-bottom: 1px solid #e2e2e2; /* 分隔线增加可读性 */
 }
 
 .contact p {
-    margin: 5px 0;
+    margin: 5px 0; /* 联系方式段落间距 */
 }
 
 a {
-    color: #4682b4;
-    text-decoration: none;
-    transition: color 0.3s;
+    color: #4682b4; /* 链接颜色与主题一致 */
+    text-decoration: none; /* 移除下划线 */
+    transition: color 0.3s; /* 平滑的颜色过渡效果 */
 }
 
 a:hover {
-    color: #333;
+    color: #333; /* 悬停时文字颜色变暗，增加互动性 */
 }
