@@ -18,6 +18,16 @@ body {
     border-radius: 8px; /* 轻微的边角圆润处理 */
 }
 
+.header-content {
+    display: flex; /* 启用flexbox布局 */
+    align-items: center; /* 垂直居中对齐 */
+    justify-content: space-between; /* 元素之间保持距离 */
+}
+
+.header-content > div {
+    padding-left: 20px; /* 文字信息部分左侧添加一些内边距 */
+}
+
 header {
     text-align: center; /* 标题居中显示 */
     padding: 20px 0; /* 增加头部的垂直间距 */
